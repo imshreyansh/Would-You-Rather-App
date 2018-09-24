@@ -1,0 +1,38 @@
+.leadmain{
+    width: 400px;
+    height:150px;
+    margin-left: 420px;
+    overflow: hidden;
+}
+
+.leadimg{
+  width: 130px;
+}
+
+.leadscr{
+    text-align: right;
+}
+
+.leaderboard-header {
+    float: left !important;
+    width: 150px;
+    text-align: right;
+    font-family: cursive;
+    font-weight: bold;
+    color: brown;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.leaderboard-header-name {
+    float: left !important;
+    width: 150px;
+    text-align: right;
+    font-family: cursive;
+    font-weight: bold;
+    color: brown;
+    font-size: 15px;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-decoration-color: brown;
+        text-shadow: 0.70px 0.70px brown 
+}

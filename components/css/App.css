@@ -1,0 +1,59 @@
+body{
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.activeNav{
+    background: #F2FA0F ;
+  font-family: cursive;
+    font-size: 20px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(5px 5px 5px #222);
+   
+}
+
+.tab{
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 80px;
+    box-shadow: 5px 4px #888888;
+    min-width: 245px;
+    max-width: 248px;
+
+}
+
+ul{
+    list-style-type: decimal; 
+    margin-left: 80px;
+    margin-top: 30px;
+    color: brown;
+    
+}
+.optA{
+   margin-left: 20px;
+    height: 30px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 15px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(5px 5px 5px #222);
+}
+.optB{
+   margin-left: 20px;
+    height: 30px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 15px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(5px 5px 5px #222);
+}

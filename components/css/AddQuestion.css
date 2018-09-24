@@ -1,0 +1,7 @@
+.btns{
+    margin-left: 555px;
+    margin-top: 10px;
+    color: #6c757d;
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(5px 5px 5px #222);
+}
