@@ -6,7 +6,7 @@ import {handleInitialData} from '../actions/Shared'
 import Dashboard from './Dashboard'
 import Login from './Login'
 import AddQuestion from './AddQuestion'
-import 'bootstrap/dist/css/bootstrap.css'
+import './css/bootstrap.css'
 import './css/App.css'
 import NavBar from './NavBar'
 import LeaderBoard from './LeaderBoard'
@@ -15,11 +15,11 @@ import NotFound from './NotFound'
 
 class App extends Component{
 componentDidMount(){
-this.props.dispatch(handleInitialData())    
+this.props.dispatch(handleInitialData())
 }
     render(){
         const { authedUser } = this.props;
-        
+
         return(
          <div>
                 <Router>
@@ -40,7 +40,7 @@ this.props.dispatch(handleInitialData())
                     </Fragment>
                 </Router>
             </div>
-           
+
         )
     }
 }
